@@ -1,4 +1,16 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box; /* Asegura que el padding y el borde no se sumen al tamaño total del elemento */
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background-color: #242938;
+    height: 100%;
+    width: 100%;
 }
